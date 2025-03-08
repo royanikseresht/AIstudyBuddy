@@ -1,0 +1,304 @@
+/* Disable text selection */
+body {
+    user-select: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+}
+
+/* Prevent dragging images */
+img {
+    pointer-events: none;
+    -webkit-user-drag: none;
+}
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    min-block-size: 100vh;
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif; /* Changed to Poppins */
+}
+
+/* Sidebar Styling */
+.sidebar {
+    inline-size: 210px;
+    background-color: #959595;
+    color: white;
+    padding: 20px;
+    block-size: 100vh;
+    position: fixed;
+    top: 0;
+    inset-inline-start: 0;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ababab;
+}
+
+/* Main Content Styling */
+.container {
+    margin-inline-start: 210px;
+    padding: 20px;
+    flex-grow: 1;
+    background-color: #fff;
+}
+
+/* Content Page Styling */
+.content-page {
+    display: none;
+}
+
+.content-page.active {
+    display: block;
+}
+
+h1 {
+    color: #3a3a3a;
+}
+
+textarea, select, button {
+    margin: 10px 0;
+}
+
+textarea {
+    inline-size: 100%;
+    block-size: 150px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Move Summarize Button Below Summary Length */
+button {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #6200ea;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin-block-start: 20px; /* Move the button below */
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+/* Summary Styling */
+h2 {
+    margin-block-start: 20px;
+}
+
+
+/* Summary Default Text Styling */
+#summary {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 4px;
+    margin-block-start: 10px;
+    font-size: 1.1em;
+    color: #777; /* Light grey color for faded look */
+    font-style: italic; /* Italic to signify temporary nature */
+    opacity: 0.7; /* Make it faded */
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        inline-size: 100%;
+        block-size: auto;
+        position: relative;
+        text-align: center;
+    }
+    .container {
+        margin-inline-start: 0;
+        padding: 10px;
+    }
+}
+
+/* Main Content Styling */
+.main-content {
+    margin-inline-start: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inline-size: 100%;
+    block-size: 100vh;
+}
+
+/* Profile Card */
+.profile-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-inline-size: 600px;
+    text-align: start;
+}
+
+/* Avatar Styling */
+.avatar {
+    inline-size: 120px;
+    block-size: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-inline-end: 20px;
+    border: 3px solid #696969;
+}
+
+/* Profile Text */
+.profile-info h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        inline-size: 100%;
+        block-size: auto;
+        text-align: center;
+        position: relative;
+    }
+
+    .main-content {
+        margin-inline-start: 0;
+        padding: 20px;
+        block-size: auto;
+    }
+
+    .profile-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .avatar {
+        margin-bottom: 15px;
+    }
+}
+
+/* Social Links */
+.social-links {
+    margin-block-start: 15px;
+}
+
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-inline-end: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.social-btn i {
+    margin-inline-end: 8px;
+    font-size: 18px;
+}
+
+/* GitHub Button */
+.github {
+    background-color: #333;
+    color: white;
+}
+
+.github:hover {
+    background-color: #222;
+}
+
+/* LinkedIn Button */
+.linkedin {
+    background-color: #0077b5;
+    color: white;
+}
+
+.linkedin:hover {
+    background-color: #005f8d;
+}
+
+
+/* Professional Smaller Email Link Styling */
+a {
+    color: #6200ea; /* Base color */
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem; /* Smaller font size */
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #3700b3; /* Darker shade on hover */
+    text-decoration: underline;
+    transform: translateY(-1px); /* Slight upward motion on hover */
+}
+
+/* Specific Styling for Mailto Links */
+a[href^="mailto:"] {
+    display: inline-block;
+    padding: 4px 8px; /* Reduced padding for smaller size */
+    border: 2px solid #6200ea; /* Border color matching the text color */
+    border-radius: 20px; /* Rounded corners with a smaller radius */
+    font-weight: 600; /* Slightly bolder for emphasis */
+    font-size: 0.9rem; /* Smaller font size */
+    transition: all 0.3s ease;
+}
+
+a[href^="mailto:"]:hover {
+    color: #fff; /* White text on hover */
+    background-color: #6200ea; /* Matching background color */
+    border-color: #3700b3; /* Darker border on hover */
+    transform: translateY(-2px); /* Slight elevation effect */
+}
