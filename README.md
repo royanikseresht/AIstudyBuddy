@@ -251,7 +251,7 @@ Please ensure that your contributions follow the coding conventions and include 
 ---
 
 If you have any questions or issues, feel free to open an issue in the GitHub repository or contact us directly!
-```
+
 
 ## Key Updates:
 1. **Backend Setup**: Full setup instructions for the backend with Python and Flask, including the summarization logic using HuggingFace’s transformers.
