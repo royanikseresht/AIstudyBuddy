@@ -253,7 +253,7 @@ Please ensure that your contributions follow the coding conventions and include 
 If you have any questions or issues, feel free to open an issue in the GitHub repository or contact us directly!
 ```
 
-### Key Updates:
+## Key Updates:
 1. **Backend Setup**: Full setup instructions for the backend with Python and Flask, including the summarization logic using HuggingFace’s transformers.
 2. **Frontend Setup**: Instructions for connecting the frontend to the backend API and running the app.
 3. **API Integration**: Details about the backend API endpoint (`/summarize`) and how it handles different lengths of summaries.
