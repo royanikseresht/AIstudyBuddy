@@ -1,6 +1,6 @@
 # Text Summarizer App
 
-The **Text Summarizer App** is a web application that allows users to input large chunks of text and receive summarized versions in various lengths: short, medium, or detailed. This app uses a powerful summarization API (powered by Python) to generate concise summaries based on the input text, helping users save time when working with lengthy documents or articles.
+The **Text Summarizer App** is a web and mobile application that allows users to input large chunks of text and receive summarized versions in various lengths: short, medium, or detailed. This app uses a powerful summarization API (powered by Python) to generate concise summaries based on the input text, helping users save time when working with lengthy documents or articles.
 
 ## Table of Contents
 
