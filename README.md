@@ -263,6 +263,7 @@ To run the **Text Summarizer App** locally, follow the steps for both the **back
 ### Home Page
 
 <img src="./images/web1.jpeg" alt="Web Screenshot" width="600">
+<img src="./images/web3.jpeg" alt="Web Screenshot" width="600">
 
 <div style="display: flex; gap: 10px;">
   <img src="./images/mobile1.PNG" alt="Mobile Screenshot 1" width="300">
