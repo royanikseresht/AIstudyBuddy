@@ -264,17 +264,23 @@ To run the **Text Summarizer App** locally, follow the steps for both the **back
 
 <img src="./images/web1.jpeg" alt="Web Screenshot" width="600">
 
-<img src="./images/mobile1.PNG" alt="Mobile Screenshot" width="300">
-<img src="./images/mobile3.PNG" alt="Mobile Screenshot" width="300">
+<div style="display: flex; gap: 10px;">
+  <img src="./images/mobile1.PNG" alt="Mobile Screenshot 1" width="300">
+  <img src="./images/mobile3.PNG" alt="Mobile Screenshot 2" width="300">
+</div>
 
 The home page allows users to input text and choose a summary length.
 
 ### Summary Example
 
 <img src="./images/web2.jpeg" alt="Summary Output Screenshot" width="600">
-<img src="./images/mobile2.PNG" alt="Summary Output Screenshot" width="300">
+
+<div style="display: flex; gap: 10px;">
+  <img src="./images/mobile2.PNG" alt="Mobile Screenshot" width="300">
+</div>
 
 Once the text is summarized, the output will be displayed here.
+
 
 ---
 
