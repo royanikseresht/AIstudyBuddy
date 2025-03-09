@@ -325,3 +325,6 @@ This project is licensed under the Proprietary License. Unauthorized copying, mo
 For any questions or feedback, feel free to reach out:
 - **Email:** rn211@student.london.ac.uk
 - **GitHub:** [royanikseresht](https://github.com/royanikseresht)
+- **LinkedIn:** [royanikseresht](https://www.linkedin.com/in/royanikseresht/)
+
+
